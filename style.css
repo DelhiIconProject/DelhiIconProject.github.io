@@ -1,0 +1,77 @@
+.card{
+background: #FFFFFF;
+box-shadow: 0 0 16px 0 rgba(0,0,0,0.20);
+border-radius: 8px;
+}
+
+body{
+  background: #2B2E4A;
+}
+
+.container{
+  position: absolute;
+  left: 60%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+
+}
+
+.rectangle1{
+background: #EA4A45;
+padding-left:16px;
+  padding-right:16px;
+    padding-top:4px;
+    padding-bottom:4px;
+margin:8px;
+font-size:40px;
+font-family:"Circular Std";
+color: #FFF;
+}
+
+.rectangle2{
+  background: #91394A;
+  padding-left:16px;
+    padding-right:16px;
+      padding-top:4px;
+      padding-bottom:4px;
+  margin:8px;
+  font-size:40px;
+  font-family:"Circular Std";
+  color: #FFF;
+  transform:translateX(32px);
+
+}
+
+.rectangle3{
+  background: #53354B;
+  padding-left:16px;
+    padding-right:16px;
+      padding-top:4px;
+      padding-bottom:4px;
+  margin:8px;
+  font-size:40px;
+  font-family:"Circular Std";
+  color: #FFF;
+
+}
+
+.bot{
+  font-size:40px;
+  font-family:"Circular Std";
+  color: #FFF;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+
+}
+.logo{
+  width:300px;
+  height:300px;
+  background-image: url("DIP Icon.png");
+  background-size: contain;
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
