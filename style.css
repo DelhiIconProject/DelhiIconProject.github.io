@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Monteserrat:700);
+
 .card{
 background: #FFFFFF;
 box-shadow: 0 0 16px 0 rgba(0,0,0,0.20);
@@ -24,7 +26,8 @@ padding-left:16px;
     padding-bottom:4px;
 margin:8px;
 font-size:40px;
-font-family:"Circular Std";
+font-family:'Montserrat';
+font-weight: 700;
 color: #FFF;
 }
 
@@ -36,7 +39,8 @@ color: #FFF;
       padding-bottom:4px;
   margin:8px;
   font-size:40px;
-  font-family:"Circular Std";
+  font-family:'Montserrat';
+  font-weight: 700;
   color: #FFF;
   transform:translateX(32px);
 
@@ -50,14 +54,16 @@ color: #FFF;
       padding-bottom:4px;
   margin:8px;
   font-size:40px;
-  font-family:"Circular Std";
+  font-family:'Montserrat';
+  font-weight: 700;
   color: #FFF;
 
 }
 
 .bot{
   font-size:40px;
-  font-family:"Circular Std";
+  font-family:'Montserrat';
+  font-weight: 700;
   color: #FFF;
   position: absolute;
   left: 50%;
