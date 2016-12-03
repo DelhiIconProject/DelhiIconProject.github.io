@@ -54,6 +54,12 @@ body{
 }
 
 .rectangle1{
+  -webkit-animation-name: .75s fadetop;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .75s ease;
+  /* Safari 4.0 - 8.0 */
+  animation-name: fadetop;
+  animation-duration: .75s;
 background: #EA4A45;
 padding-left:16px;
   padding-right:16px;
@@ -67,6 +73,12 @@ color: #FFF;
 }
 
 .rectangle2{
+  -webkit-animation-name: .75s fadetop2;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .75s ease;
+  /* Safari 4.0 - 8.0 */
+  animation-name: fadetop2;
+  animation-duration: .75s;
   background: #91394A;
   padding-left:16px;
     padding-right:16px;
@@ -78,10 +90,15 @@ color: #FFF;
   font-weight: 700;
   color: #FFF;
   transform:translateX(32px);
-
 }
 
 .rectangle3{
+  -webkit-animation-name: .75s fadetop;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .75s ease;
+  /* Safari 4.0 - 8.0 */
+  animation-name: fadetop;
+  animation-duration: .75s;
   background: #53354B;
   padding-left:16px;
     padding-right:16px;
@@ -92,10 +109,75 @@ color: #FFF;
   font-family:'Montserrat';
   font-weight: 700;
   color: #FFF;
-
 }
 
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes fadetop {
+  0% {
+    transform: translateY(-16px);
+    opacity: 0; }
+  100% {
+    transform: translateY(0px);
+    opacity: 1; } }
+
+/* Standard syntax */
+@keyframes fadetop {
+  0% {
+    transform: translateY(-16px);
+    opacity: 0; }
+  100% {
+    transform: translateY(0px);
+    opacity: 1; } }
+
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes fadetop2 {
+      0% {
+        transform: translateY(-16px);
+        transform:translateX(0px);
+        opacity: 0; }
+      100% {
+        transform: translateY(0px);
+        transform:translateX(32px);
+        opacity: 1; } }
+
+    /* Standard syntax */
+    @keyframes fadetop2 {
+      0% {
+        transform: translateY(-16px);
+        transform:translateX(0px);
+        opacity: 0; }
+      100% {
+        transform: translateY(0px);
+        transform:translateX(32px);
+        opacity: 1; } }
+        /* Safari 4.0 - 8.0 */
+        @-webkit-keyframes fadetop3 {
+          0% {
+            transform: translate(-100%, -500%);
+            opacity: 0; }
+          100% {
+            transform: translate(-50%, -50%);
+            opacity: 1; } }
+
+        /* Standard syntax */
+        @keyframes fadetop3 {
+          0% {
+            transform: translate(-100%, -50%);
+            opacity: 0; }
+          100% {
+            transform: translate(-50%, -50%);
+            opacity: 1; } }
+
+
+
+
 .bot{
+  -webkit-animation-name: 1.25s fadetop3;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1.25s ease-out;
+  /* Safari 4.0 - 8.0 */
+  animation-name: fadetop3;
+  animation-duration: 1.25s;
   z-index: 2;
   font-size:40px;
   font-family:'Montserrat';
@@ -132,5 +214,55 @@ color: #FFF;
 }
 
 .opacitycont{
-  opacity: :1;
+  opacity:1;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .rectangle1{
+    font-size: 36px;
+  }
+
+  .rectangle2{
+    font-size: 36px;
+  }
+
+  .rectangle3{
+    font-size: 36px;
+  }
+
+  .logo{
+    left: 60px;
+    top: 60px;
+    width:100px;
+    height:100px;
+  }
+
+  .container{
+    top: 250px;
+    left: 45%;
+  }
+
+  .bot{
+    font-size: 28px;
+    margin: 0;
+    top: 430px;
+  }
+
+  .page{
+    margin-top: 640px;
+  }
+  .card{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .cardcont{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 }
